@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container" class="container">
+    <div id="container" class="full-container">
       <div class="bar-container">
         <div class="pr-2">
           <div class="bar health-my-bar" id="health-my-bar"></div>
@@ -31,13 +31,50 @@
         <img
           class="char-l-img"
           id="effect1-char"
-          src="https://www.fightersgeneration.com/characters2/iron-man-stance.gif"
+          src="https://www.fightersgeneration.com/characters3/m-spiderman.gif"
           alt=""
         />
       </div>
       <div class="win-box">
         <div id="win" class="win-box"></div>
       </div>
+      <div>
+        <button class="btn1" id="openModal">left player</button>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>left player keys</h1>
+            <p>press up key to jump</p>
+            <p>press down key to sit</p>
+            <p>press right key to move right</p>
+            <p>press left key to move left</p>
+            <p>press Z key to bem shot</p>
+            <p>press X key to boom shot</p>
+            <p>press C key to sheild</p>
+            <button id="closeModal">Close</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="btn2" id="openModal2">right player</button>
+
+        <div id="myModal2" class="modal">
+          <div class="modal-content">
+            <span class="close2">&times;</span>
+            <h1>Right player keys</h1>
+            <p>press W key to jump</p>
+            <p>press S key to sit</p>
+            <p>press D key to move right</p>
+            <p>press A key to move left</p>
+            <p>press J key to bem shot</p>
+            <p>press L key to hit</p>
+            <p>press K key to sheild</p>
+            <button id="closeModal2">Close</button>
+          </div>
+        </div>
+      </div>
+      
     </div>
 
     <script src="app.js"></script>
